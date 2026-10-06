@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency Medicine Pharmacotherapy Literature of 2024 | CuratED Summary</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .card-gradient {
+            background-image: linear-gradient(to top right, #ffffff, #f0f9ff);
+        }
+        .icon-bg {
+            background-color: #e0f2fe;
+        }
+        .header-gradient {
+            background: linear-gradient(90deg, #0284c7, #0ea5e9, #38bdf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .section-title-border {
+            border-image: linear-gradient(to right, #0ea5e9, transparent) 1;
+        }
+        /* Animation for cards appearing on scroll */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .fade-in-card {
+            animation: fadeIn 0.5s ease-out forwards;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+
+    <!-- Header Section -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-xl md:text-2xl font-bold text-slate-700">EM Pharmacotherapy <span class="text-sky-600">2024</span></h1>
+            <nav class="hidden md:flex space-x-6 text-sm font-semibold">
+                <a href="#resuscitation" class="text-slate-600 hover:text-sky-600 transition-colors">Resuscitation</a>
+                <a href="#trauma" class="text-slate-600 hover:text-sky-600 transition-colors">Trauma</a>
+                <a href="#stroke" class="text-slate-600 hover:text-sky-600 transition-colors">Stroke</a>
+                <a href="#reversal" class="text-slate-600 hover:text-sky-600 transition-colors">Reversal</a>
+                <a href="#misc" class="text-slate-600 hover:text-sky-600 transition-colors">More</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-6 py-12">
+
+        <!-- Intro Title -->
+        <div class="text-center mb-16">
+            <h2 class="text-4xl md:text-5xl font-bold header-gradient mb-4">CuratED: Key Pharmacotherapy Updates of 2024</h2>
+            <p class="text-lg text-slate-600 max-w-3xl mx-auto">An infographic summary of pivotal guidelines, trials, and meta-analyses in emergency medicine pharmacotherapy.</p>
+        </div>
+
+        <!-- Sections Grid -->
+        <div class="space-y-16">
+
+            <!-- Resuscitation Section -->
+            <section id="resuscitation" class="scroll-mt-24">
+                <h3 class="text-3xl font-bold text-sky-700 mb-8 flex items-center gap-4 border-l-4 border-sky-500 pl-4 section-title-border">
+                    <i class="ph ph-heartbeat text-4xl"></i>
+                    Resuscitation
+                </h3>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Card 1: Heart Failure -->
+                    <div class="card-gradient p-6 rounded-xl shadow-lg border border-slate-200 fade-in-card">
+                        <div class="flex items-center gap-4 mb-4">
+                            <div class="icon-bg p-3 rounded-full"><i class="ph-bold ph-drop text-sky-600 text-2xl"></i></div>
+                            <h4 class="text-lg font-bold text-slate-800">Acute Heart Failure Diuretics</h4>
+                        </div>
+                        <ul class="space-y-2 text-sm text-slate-600 list-disc list-inside">
+                            <li>For patients on oral loop diuretics, give an IV dose **1 to 2.5 times** the oral furosemide equivalent.</li>
+                            <li>Higher initial doses (2.5x) may lead to greater fluid loss and symptom relief.</li>
+                            <li>For diuretic-naïve patients, an initial IV furosemide dose of **40-80 mg** is common.</li>
+                        </ul>
+                    </div>
+                    <!-- Card 2: RSI -->
+                    <div class="card-gradient p-6 rounded-xl shadow-lg border border-slate-200 fade-in-card" style="animation-delay: 0.1s;">
+                        <div class="flex items-center gap-4 mb-4">
+                            <div class="icon-bg p-3 rounded-full"><i class="ph-bold ph-syringe text-sky-600 text-2xl"></i></div>
+                            <h4 class="text-lg font-bold text-slate-800">RSI: Ketamine vs Etomidate</h4>
+                        </div>
+                        <p class="text-sm text-slate-600">A Bayesian meta-analysis showed an 83.2% probability that ketamine reduces mortality compared to etomidate in critically ill adults, but the result was **not statistically significant** (RR 0.93, 95% CrI 0.79-1.08). Choice should remain patient-specific.</p>
+                    </div>
+                    <!-- Card 3: Corticosteroids -->
+                    <div class="card-gradient p-6 rounded-xl shadow-lg border border-slate-200 fade-in-card" style="animation-delay: 0.2s;">
+                        <div class="flex items-center gap-4 mb-4">
+                            <div class="icon-bg p-3 rounded-full"><i class="ph-bold ph-lungs text-sky-600 text-2xl"></i></div>
+                            <h4 class="text-lg font-bold text-slate-800">Corticosteroids in Critical Illness</h4>
+                        </div>
+                        <ul class="space-y-2 text-sm text-slate-600 list-disc list-inside">
+                            <li>**Sepsis:** Conditional recommendation for corticosteroids in septic shock.</li>
+                            <li>**ARDS:** Suggested for hospitalised adults (moderate certainty).</li>
+                            <li>**Severe CAP:** Recommended for hospitalised adults (strong recommendation).</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Trauma Section -->
+            <section id="trauma" class="scroll-mt-24">
+                <h3 class="text-3xl font-bold text-teal-700 mb-8 flex items-center gap-4 border-l-4 border-teal-500 pl-4 section-title-border">
+                    <i class="ph ph-first-aid-kit text-4xl"></i>
+                    Trauma
+                </h3>
+                <div class="grid md:grid-cols-2 gap-8">
+                     <!-- Card 1: Fluids & Vasopressors -->
+                    <div class="card-gradient p-6 rounded-xl shadow-lg border border-slate-200 fade-in-card">
+                        <div class="flex items-center gap-4 mb-4">
+                            <div class="icon-bg p-3 rounded-full" style="background-color: #ccfbf1;"><i class="ph-bold ph-waves text-teal-600 text-2xl"></i></div>
+                            <h4 class="text-lg font-bold text-slate-800">Prehospital Fluids & Vasopressors</h4>
+                        </div>
+                        <ul class="space-y-2 text-sm text-slate-600 list-disc list-inside">
+                            <li>**Isotonic crystalloids** are the preferred prehospital fluid.</li>
+                            <li>**Permissive hypotension** is reasonable in patients without TBI.</li>
+                            <li>For TBI, target SBP **≥110 mmHg**.</li>
+                            <li>Vasopressors are **not recommended** for routine use in traumatic haemorrhagic shock.</li>
+                        </ul>
+                    </div>
+                    <!-- Card 2: Antibiotics -->
+                    <div class="card-gradient p-6 rounded-xl shadow-lg border border-slate-200 fade-in-card" style="animation-delay: 0.1s;">
+                        <div class="flex items-center gap-4 mb-4">
+                            <div class="icon-bg p-3 rounded-full" style="background-color: #ccfbf1;"><i class="ph-bold ph-pill text-teal-600 text-2xl"></i></div>
+                            <h4 class="text-lg font-bold text-slate-800">Antibiotic Prophylaxis</h4>
+                        </div>
+                        <ul class="space-y-2 text-sm text-slate-600 list-disc list-inside">
+                            <li>**Recommended for:** Penetrating trauma (head, chest, abdomen), open fractures.</li>
+                            <li>**Not recommended for:** Non-operative blunt trauma, clean wounds.</li>
+                            <li>**Open Fractures:** Prehospital administration of a first-generation cephalosporin is recommended if it doesn't delay transport.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- TBI & ICH Section -->
+            <section id="tbi" class="scroll-mt-24">
+                <h3 class="text-3xl font-bold text-indigo-700 mb-8 flex items-center gap-4 border-l-4 border-indigo-500 pl-4 section-title-border">
+                    <i class="ph ph-brain text-4xl"></i>
+                    TBI & Intracranial Haemorrhage
+                </h3>
+                <div class="grid md:grid-cols-2 gap-8">
+                     <!-- Card 1: Seizure Prophylaxis -->
+                    <div class="card-gradient p-6 rounded-xl shadow-lg border border-slate-200 fade-in-card">
+                        <div class="flex items-center gap-4 mb-4">
+                            <div class="icon-bg p-3 rounded-full" style="background-color: #e0e7ff;"><i class="ph-bold ph-lightning text-indigo-600 text-2xl"></i></div>
+                            <h4 class="text-lg font-bold text-slate-800">Seizure Prophylaxis in TBI</h4>
+                        </div>
+                        <p class="text-sm text-slate-600 mb-2">A shift in guidelines: Prophylactic anti-seizure medication (ASM) is now considered **optional** for moderate-severe TBI.</p>
+                        <ul class="space-y-1 text-sm text-slate-600 list-disc list-inside">
+                           <li>If used, **levetiracetam** is preferred over phenytoin.</li>
+                           <li>A short course of **≤7 days** is recommended.</li>
+                        </ul>
+                    </div>
+                    <!-- Card 2: TXA -->
+                    <div class="card-gradient p-6 rounded-xl shadow-lg border border-slate-200 fade-in-card" style="animation-delay: 0.1s;">
+                        <div class="flex items-center gap-4 mb-4">
+                            <div class="icon-bg p-3 rounded-full" style="background-color: #e0e7ff;"><i class="ph-bold ph-bandages text-indigo-600 text-2xl"></i></div>
+                            <h4 class="text-lg font-bold text-slate-800">Tranexamic Acid (TXA)</h4>
+                        </div>
+                        <ul class="space-y-2 text-sm text-slate-600 list-disc list-inside">
+                            <li>Meta-analysis: TXA **did not reduce mortality** in TBI but did reduce haemorrhagic expansion.</li>
+                            <li>Subgroup analysis: For CT-confirmed ICH, a prehospital **2g IV bolus of TXA** within 2 hours significantly lowered mortality compared to placebo or 1g+1g infusion.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Ischemic Stroke Section -->
+            <section id="stroke" class="scroll-mt-24">
+                <h3 class="text-3xl font-bold text-rose-700 mb-8 flex items-center gap-4 border-l-4 border-rose-500 pl-4 section-title-border">
+                    <i class="ph ph-timer text-4xl"></i>
+                    Ischemic Stroke
+                </h3>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Card 1: TNK vs Alteplase -->
+                    <div class="card-gradient p-6 rounded-xl shadow-lg border border-slate-200 fade-in-card">
+                        <div class="flex items-center gap-4 mb-4">
+                            <div class="icon-bg p-3 rounded-full" style="background-color: #ffe4e6;"><i class="ph-bold ph-scales text-rose-600 text-2xl"></i></div>
+                            <h4 class="text-lg font-bold text-slate-800">Tenecteplase vs Alteplase</h4>
+                        </div>
+                        <p class="text-sm text-slate-600">Multiple trials (TASTE, ORIGINAL, ATTEST-2) confirm **Tenecteplase (TNK) 0.25 mg/kg is non-inferior** to Alteplase for AIS within 4.5 hours. A meta-analysis suggests TNK may be superior for functional outcomes (mRS 0-1).</p>
+                    </div>
+                    <!-- Card 2: IVT + Thrombectomy -->
+                    <div class="card-gradient p-6 rounded-xl shadow-lg border border-slate-200 fade-in-card" style="animation-delay: 0.1s;">
+                        <div class="flex items-center gap-4 mb-4">
+                            <div class="icon-bg p-3 rounded-full" style="background-color: #ffe4e6;"><i class="ph-bold ph-clock-countdown text-rose-600 text-2xl"></i></div>
+                            <h4 class="text-lg font-bold text-slate-800">IVT + Thrombectomy</h4>
+                        </div>
+                        <p class="text-sm text-slate-600">The benefit of IV thrombolysis before thrombectomy is **highly time-dependent**. The greatest benefit is seen with the earliest possible administration. The TIMELESS trial showed **no benefit** for TNK in the 4.5 to 24-hour window for patients undergoing thrombectomy.</p>
+                    </div>
+                    <!-- Card 3: Minor Stroke -->
+                    <div class="card-gradient p-6 rounded-xl shadow-lg border border-slate-200 fade-in-card" style="animation-delay: 0.2s;">
+                        <div class="flex items-center gap-4 mb-4">
+                            <div class="icon-bg p-3 rounded-full" style="background-color: #ffe4e6;"><i class="ph-bold ph-activity text-rose-600 text-2xl"></i></div>
+                            <h4 class="text-lg font-bold text-slate-800">Thrombolysis in Minor Stroke</h4>
+                        </div>
+                        <p class="text-sm text-slate-600">TEMPO-2 trial: In minor stroke (NIHSS 0-5) with occlusion, TNK showed **no benefit and potential harm** (increased ICH/mortality) compared to standard care. For non-LVO minor stroke, DAPT may be safer than alteplase.</p>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Anticoagulation Reversal Section -->
+            <section id="reversal" class="scroll-mt-24">
+                <h3 class="text-3xl font-bold text-amber-700 mb-8 flex items-center gap-4 border-l-4 border-amber-500 pl-4 section-title-border">
+                    <i class="ph ph-arrow-u-up-left text-4xl"></i>
+                    Anticoagulation Reversal
+                </h3>
+                <div class="grid md:grid-cols-2 gap-8">
+                     <!-- Card 1: Andexanet Alfa -->
+                    <div class="card-gradient p-6 rounded-xl shadow-lg border border-slate-200 fade-in-card">
+                        <div class="flex items-center gap-4 mb-4">
+                            <div class="icon-bg p-3 rounded-full" style="background-color: #fef3c7;"><i class="ph-bold ph-x-circle text-amber-600 text-2xl"></i></div>
+                            <h4 class="text-lg font-bold text-slate-800">Andexanet Alfa for DOAC Reversal</h4>
+                        </div>
+                        <p class="text-sm text-slate-600 mb-2">ANNEXA-I trial: For DOAC-associated ICH, Andexanet alfa showed **superior haemostatic efficacy** compared to usual care (PCC).</p>
+                        <ul class="space-y-1 text-sm text-slate-600 list-disc list-inside">
+                           <li>However, there was **no difference in 30-day mortality** and a **higher rate of thrombotic events** with Andexanet.</li>
+                        </ul>
+                    </div>
+                    <!-- Card 2: PCC Dosing -->
+                    <div class="card-gradient p-6 rounded-xl shadow-lg border border-slate-200 fade-in-card" style="animation-delay: 0.1s;">
+                        <div class="flex items-center gap-4 mb-4">
+                            <div class="icon-bg p-3 rounded-full" style="background-color: #fef3c7;"><i class="ph-bold ph-ruler text-amber-600 text-2xl"></i></div>
+                            <h4 class="text-lg font-bold text-slate-800">PCC Dosing for VKA Reversal</h4>
+                        </div>
+                        <p class="text-sm text-slate-600">Meta-analyses suggest **fixed-dose PCC** is as effective as weight-based dosing for achieving an INR goal of <2.0. Fixed-dosing was associated with **lower mortality and fewer thromboembolic events**, making it an appealing alternative.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Miscellaneous Section -->
+            <section id="misc" class="scroll-mt-24">
+                <h3 class="text-3xl font-bold text-slate-700 mb-8 flex items-center gap-4 border-l-4 border-slate-500 pl-4 section-title-border">
+                    <i class="ph ph-dots-three-circle text-4xl"></i>
+                    Toxicology & Miscellaneous
+                </h3>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Card 1: Naloxone -->
+                    <div class="card-gradient p-6 rounded-xl shadow-lg border border-slate-200 fade-in-card">
+                        <div class="flex items-center gap-4 mb-4">
+                            <div class="icon-bg p-3 rounded-full" style="background-color: #e2e8f0;"><i class="ph-bold ph-eyedropper text-slate-600 text-2xl"></i></div>
+                            <h4 class="text-lg font-bold text-slate-800">Opioid Reversal</h4>
+                        </div>
+                        <p class="text-sm text-slate-600">For suspected opioid poisoning, adding **1600 µg IM naloxone** to titrated IV naloxone significantly reduced respiratory depression recurrence and the need for a continuous infusion. (Note: No fentanyl cases in study).</p>
+                    </div>
+                    <!-- Card 2: Geriatric Meds -->
+                    <div class="card-gradient p-6 rounded-xl shadow-lg border border-slate-200 fade-in-card" style="animation-delay: 0.1s;">
+                        <div class="flex items-center gap-4 mb-4">
+                            <div class="icon-bg p-3 rounded-full" style="background-color: #e2e8f0;"><i class="ph-bold ph-person-simple-walk text-slate-600 text-2xl"></i></div>
+                            <h4 class="text-lg font-bold text-slate-800">Geriatric Medication Safety</h4>
+                        </div>
+                        <p class="text-sm text-slate-600">GEMS-Rx identified high-risk medications to **avoid prescribing at ED discharge** for older adults, including: benzodiazepines, first-gen antihistamines, muscle relaxants, and sulfonylureas.</p>
+                    </div>
+                    <!-- Card 3: Agitation -->
+                    <div class="card-gradient p-6 rounded-xl shadow-lg border border-slate-200 fade-in-card" style="animation-delay: 0.2s;">
+                        <div class="flex items-center gap-4 mb-4">
+                            <div class="icon-bg p-3 rounded-full" style="background-color: #e2e8f0;"><i class="ph-bold ph-siren text-slate-600 text-2xl"></i></div>
+                            <h4 class="text-lg font-bold text-slate-800">Severe Agitation</h4>
+                        </div>
+                        <p class="text-sm text-slate-600">ACEP policy update: For severe agitation in the ED, a combination of **droperidol and midazolam** offers the best balance. If a single agent is needed, **droperidol** is preferred. Ketamine use requires a controlled setting.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-800 text-white mt-16">
+        <div class="container mx-auto px-6 py-8 text-center text-sm">
+            <p>Infographic summary of "CuratED: The emergency medicine pharmacotherapy literature of 2024" by Feldman R, et al.</p>
+            <p class="text-slate-400 mt-2">This is a visual summary and not a substitute for clinical judgement or reading the original publication.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Simple Intersection Observer to trigger animations
+        document.addEventListener("DOMContentLoaded", () => {
+            const cards = document.querySelectorAll('.fade-in-card');
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.animationPlayState = 'running';
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, {
+                threshold: 0.1
+            });
+
+            cards.forEach(card => {
+                // Pause animation initially
+                card.style.animationPlayState = 'paused';
+                observer.observe(card);
+            });
+        });
+    </script>
+
+</body>
+</html>
